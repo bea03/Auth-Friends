@@ -11,8 +11,8 @@ Topics:
 
 ## Project Description
 
-* There is an API built that has authentication built into it. The API holds a list of friends and lets you add, edit, or remove friends from that list. 
-* All of the API endpoints (except the login endpoint) are considered "protected", meaning you have to make the request with an authentication token in the header or the API will send back a `401` error. 
+* There is an API built that has authentication built into it. The API holds a list of friends and lets you add, edit, or remove friends from that list.
+* All of the API endpoints (except the login endpoint) are considered "protected", meaning you have to make the request with an authentication token in the header or the API will send back a `401` error.
 * Take your examples from the guided project and use them to build a more sophisticated application. Have fun!
 * Once your server is up and running, the URL you'll be able to hit from within your app is `http://localhost:5000`. You will however need an authentication header on all the calls except the login call.
 * Take a look at the endpoints that our API has to offer in `server.js`.
@@ -26,10 +26,10 @@ Topics:
 
 ## Initialize Project
 
-* Run `yarn` or `npm i` inside the root directory of this project to install dependencies.
-* Run `yarn start` or `npm start` to start the API server.
-* Run `create-react-app friends` in a separate terminal window in the root directory of the project to create your starter application.
-* `cd` into the _friends_ folder and type `yarn add axios react-router-dom` which will install the needed dependencies.
+* &#x2714; Run `yarn` or `npm i` inside the root directory of this project to install dependencies.
+* &#x2714; Run `yarn start` or `npm start` to start the API server.
+* &#x2714; Run `create-react-app friends` in a separate terminal window in the root directory of the project to create your starter application.
+* &#x2714; `cd` into the _friends_ folder and type `yarn add axios react-router-dom` which will install the needed dependencies.
 
 ## Build the App!
 * Add a route for a login page and build out a simple login form with username and password inputs and a submit button (design this however you would like).
