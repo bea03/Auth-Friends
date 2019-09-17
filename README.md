@@ -40,9 +40,9 @@ Topics:
 * &#x2714; In your FriendsList component, rendered with `<ProtectedRoute />`, you will create a list of your friends that you get from the API.
 
 **Adding New Friends**
-* Create a form to collects data for a new friend.
-* Make a POST request to add a friend to the database
-* Each `friend` item that is in the `friends` array should have the following format:
+* &#x2714; Create a form to collects data for a new friend.
+* &#x2714; Make a POST request to add a friend to the database
+* &#x2714; Each `friend` item that is in the `friends` array should have the following format:
 
 ```js
 {

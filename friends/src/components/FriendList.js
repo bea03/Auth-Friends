@@ -1,8 +1,9 @@
 import React from 'react';
-import Loader from 'react-loader-spinner';
+
 
 import { axiosWithAuth } from '../utils/axiosWithAuth';
 import FriendCard from './FriendCard.js';
+import AddFriend from './AddFriend';
 
 class FriendList extends React.Component {
   state = {
@@ -26,6 +27,7 @@ class FriendList extends React.Component {
     render() {
       return (
         <div>
+          <AddFriend />
           <h1>Lambda School Friend List</h1>
           <div>
               {this.state.friendList.map(friend => <FriendCard key={friend.id} friend={friend} />)}
